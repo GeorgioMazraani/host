@@ -32,4 +32,8 @@ document.getElementById('btn').addEventListener('click', () => {
     row.appendChild(emailCell);
     table.appendChild(row);
 });
+document.getElementById('clear').addEventListener('click', () => {
+    let table = document.querySelector('#usersTable tbody');
+    table.innerHTML = "";
+})
 
