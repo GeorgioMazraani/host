@@ -1,15 +1,34 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
 </head>
 
 <body>
     <select id="users"></select>
     <button id="btn">Click</button>
-    <p id="para"></p>
+    <br>
+    <table id="usersTable">
+        <thead>
+            <tr>
+                <th>User</th>
+                <th>UserName</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
     <script src="index.js"></script>
 </body>
 
